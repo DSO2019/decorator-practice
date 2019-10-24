@@ -1,30 +1,39 @@
 package mx.iteso;
 
 /**
- * usuario.
+ * Usuario base.
  */
-public abstract class User {
+public class UsuarioBase extends User {
     /**
      * Metodo.
      * @return Si el usuario puede, o no, publicar
      */
-    public abstract boolean publish();
+    public final boolean publish() {
+        return false;
+    }
 
     /**
      * Metodo.
      * @return Si el usuario puede, o no, borrar comentarios
      */
-    public abstract boolean delete();
+    public final boolean delete() {
+        return false;
+    }
 
     /**
      * Metodo.
      * @return Si el usuario puede, o no, aprobar comentarios
      */
-    public abstract boolean approve();
+    public final boolean approve() {
+        return false;
+    }
 
     /**
      * Metodo.
      * @return Si el usuario puede, o no, comentar
      */
-    public abstract boolean comment();
+    public final boolean comment() {
+        return false;
+    }
+
 }
