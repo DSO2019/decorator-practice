@@ -28,6 +28,6 @@ public class Approve extends PrivilegeDecorator {
     }
 
     public boolean approve() {
-        return user.approve();
+        return user.getPrivileges().contains("approve");
     }
 }
