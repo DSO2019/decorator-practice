@@ -6,10 +6,10 @@ public class Publisher extends PrivilegesDecorator {
     private final User user;
 
     /** Publisher constructor.
-     * @param user user.
+     * @param incomingUser user.
      */
-    public Publisher(final User user) {
-        this.user = user;
+    public Publisher(final User incomingUser) {
+        this.user = incomingUser;
     }
 
     /** Description of permission values.

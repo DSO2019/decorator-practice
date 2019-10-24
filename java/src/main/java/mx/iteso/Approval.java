@@ -1,39 +1,46 @@
 package mx.iteso;
 
+/** Approval privlege class. */
 public class Approval extends User {
-    User user;
+    /** Real User to decorate. */
+    private final User user;
 
-    public Approval(User user) {
-        this.user = user;
+    /**
+     * Commenter constructor.
+     * @param incomingUser user.
+     */
+    public Approval(final User incomingUser) {
+        this.user = incomingUser;
     }
 
+    /**
+     * Description of permission values.
+     * @return String description.
+     */
     @Override
     public String getDescription() {
         return "Approval permission to: " + user.getDescription();
     }
 
     /**
-     * Publish permission obtain function
-     * 
-     * @return Permission boolean
+     * Publish permission obtain function.
+     * @return boolean Permission.
      */
     public boolean publishPermission() {
         return user.publishPermission();
     }
 
     /**
-     * Deletion permission obtain function
-     * 
-     * @return Permission boolean
+     * Deletion permission obtain function.
+     * @return boolean Permission.
      */
     public boolean deletionPermission() {
         return user.deletionPermission();
     }
 
     /**
-     * Approval permission allow function
-     * 
-     * @return Permission boolean
+     * Approval permission allow function.
+     * @return boolean Permission.
      */
     public boolean approvalPermission() {
         System.out.println("Approval permission enabled");
@@ -41,12 +48,10 @@ public class Approval extends User {
     }
 
     /**
-     * Comment permission obtain function
-     * 
-     * @return Permission boolean
+     * Comment permission obtain function.
+     * @return boolean Permission.
      */
     public boolean commentPermission() {
         return user.commentPermission();
     }
-
 }
