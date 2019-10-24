@@ -1,21 +1,29 @@
-package mx.iteso;
+package mx.iteso.Priviledges;
 
-public class Admin extends User {
-    //Can do anything
+import mx.iteso.Priviledge;
+import mx.iteso.User;
+
+public class CommentingPriviledge extends Priviledge {
     /**
-     * Para instanciar Admin.
+     * Se implementa usuario.
      */
-    public Admin{
-        userTypeName = "Admin";
+    User user;
+
+    /**
+     * Se hace link de Approving con usuario implementado.
+     * @param user
+     */
+    public CommentingPriviledge(User user){
+        this.user = user;
     }
 
-    /***
-     * Va por los nombres de los privilegios.
-     * @return String de privilegios que tiene
+    /**
+     * Para implementar decoration.
+     *
+     * @return String con lo que si puede hacer
      */
-    @Override
     public String getPriviledges() {
-        return super.getPriviledges();
+        return user.getPriviledges() + " privilegio de comentar";
     }
 
     /**
@@ -35,7 +43,7 @@ public class Admin extends User {
      */
     @Override
     public String commentingPriviledgeUser() {
-        return super.commentingPriviledgeUser();
+        return user.getPriviledges() + " ya puedes comentar";
     }
 
     /**
