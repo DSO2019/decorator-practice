@@ -7,14 +7,23 @@ public class CommentingPriviledge extends Priviledge {
     /**
      * Se implementa usuario.
      */
-    User user;
+    private User user;
+
+    /**
+     * getter.
+     * @return user
+     */
+    public User getUser() {
+        return user;
+    }
 
     /**
      * Se hace link de Approving con usuario implementado.
-     * @param user
+     * @param var usuario
+     *
      */
-    public CommentingPriviledge(User user){
-        this.user = user;
+    public CommentingPriviledge(final User var) {
+        this.user = var;
     }
 
     /**
@@ -33,7 +42,7 @@ public class CommentingPriviledge extends Priviledge {
      */
     @Override
     public String approvingPriviledgeUser() {
-        return super.approvingPriviledgeUser();
+        return user.approvingPriviledgeUser();
     }
 
     /**
@@ -43,7 +52,7 @@ public class CommentingPriviledge extends Priviledge {
      */
     @Override
     public String commentingPriviledgeUser() {
-        return user.getPriviledges() + " ya puedes comentar";
+        return "Ya puedes comentar";
     }
 
     /**
@@ -53,7 +62,7 @@ public class CommentingPriviledge extends Priviledge {
      */
     @Override
     public String deletingPriviledgeUser() {
-        return super.deletingPriviledgeUser();
+        return user.deletingPriviledgeUser();
     }
 
     /**
@@ -63,6 +72,6 @@ public class CommentingPriviledge extends Priviledge {
      */
     @Override
     public String publisherPriviledgeUser() {
-        return super.publisherPriviledgeUser();
+        return user.publisherPriviledgeUser();
     }
 }

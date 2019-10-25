@@ -9,8 +9,8 @@
         <module name="decorator-practice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="decorator-practice" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="decorator-practice" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>

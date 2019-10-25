@@ -17,7 +17,6 @@ public abstract class User {
     public String getPriviledges() {
         return privilegio;
     };
-
     /**
      * Usuarios al no tiene privilegio de approving.
      * @return string hasta que se modifique

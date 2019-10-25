@@ -7,14 +7,22 @@ public class ApprovingPriviledge extends Priviledge {
     /**
      * Se implementa usuario.
      */
-    User user;
+    private User user;
+
+    /**
+     * getter.
+     * @return user
+     */
+    public User getUser() {
+        return user;
+    }
 
     /**
      * Se hace link de Approving con usuario implementado.
-     * @param user
+     * @param var para regresar user.
      */
-    public ApprovingPriviledge(User user){
-        this.user = user;
+    public ApprovingPriviledge(final User var) {
+        this.user = var;
     }
 
     /**
@@ -33,7 +41,7 @@ public class ApprovingPriviledge extends Priviledge {
      */
     @Override
     public String commentingPriviledgeUser() {
-        return super.commentingPriviledgeUser();
+        return user.commentingPriviledgeUser();
     }
 
     /**
@@ -43,7 +51,7 @@ public class ApprovingPriviledge extends Priviledge {
      */
     @Override
     public String deletingPriviledgeUser() {
-        return super.deletingPriviledgeUser();
+        return user.deletingPriviledgeUser();
     }
 
     /**
@@ -53,7 +61,7 @@ public class ApprovingPriviledge extends Priviledge {
      */
     @Override
     public String publisherPriviledgeUser() {
-        return super.publisherPriviledgeUser();
+        return user.publisherPriviledgeUser();
     }
 
     /**
@@ -63,6 +71,6 @@ public class ApprovingPriviledge extends Priviledge {
      */
     @Override
     public String approvingPriviledgeUser() {
-        return user.getPriviledges() + "Ya tienes privilegio de aprobar";
+        return "Ya tienes privilegio de aprobar";
     }
 }
