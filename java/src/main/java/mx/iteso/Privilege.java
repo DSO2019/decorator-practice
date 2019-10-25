@@ -1,5 +1,6 @@
 package mx.iteso;
 
-public class Privilege {
+public abstract class Privilege extends User {
 
+    public abstract String getDescripcion();
 }
