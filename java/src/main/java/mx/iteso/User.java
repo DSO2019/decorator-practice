@@ -1,18 +1,53 @@
 package mx.iteso;
 
 /**
- * Abstract class User
+ * Abstract class User.
  */
 public abstract class User {
-    public String description = "Any User";
 
-    public String getDescription(){
+    /**
+     * Description.
+     */
+    private String description = "Any User";
+
+    /**
+     * Get description method.
+     * @return description.
+     */
+    public String getDescription() {
         return description;
     }
 
-    public abstract boolean canPublish ();
-    public abstract boolean canComment ();
-    public abstract boolean canApprove ();
-    public abstract boolean canDelete ();
+    /**
+     * Set description method.
+     * @param desc description.
+     */
+    public void setDescription(final String desc) {
+        this.description = desc;
+    }
+
+    /**
+     * Can publish method.
+     * @return can publish.
+     */
+    public abstract boolean canPublish();
+
+    /**
+     * Can comment method.
+     * @return can comment.
+     */
+    public abstract boolean canComment();
+
+    /**
+     * Can approve method.
+     * @return can approve.
+     */
+    public abstract boolean canApprove();
+
+    /**
+     * Can delete method.
+     * @return can delete.
+     */
+    public abstract boolean canDelete();
 
 }
