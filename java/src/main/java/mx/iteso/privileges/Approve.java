@@ -20,11 +20,11 @@ public class Approve extends Privilege {
     }
 
     public boolean canComment(){
-        return true;
+        return canComment();
     }
 
     public boolean canApprove(){
-        return user.canApprove();
+        return true;
     }
 
     public boolean canDelete(){
