@@ -1,35 +1,68 @@
 package mx.iteso.privileges;
 import mx.iteso.User;
 
-public class Publish extends User{
+/**
+ * Class.
+ */
+public class Publish extends User {
+
+/**
+* User.
+*/
 private User user;
-	
-	public Publish(final User usuario) {
-        this.user = usuario;
-    }
-	
-	@Override
-	public String getDesc() {
-		return user.getDesc() + " publish ";
-	}
 
-	@Override
-	public boolean canPublish() {
-		return true;
-	}
 
-	@Override
-	public boolean canComment() {
-		return user.canComment();
-	}
+/**
+* Publish.
+* @param usuario user.
+*/
+public Publish(final User usuario) {
+this.user = usuario;
+}
 
-	@Override
-	public boolean canApprove() {
-		return user.canApprove();
-	}
+/**
+ * Method.
+ * @return description.
+ */
+@Override
+public String getDesc() {
+return user.getDesc() + " publish ";
+}
 
-	@Override
-	public boolean canDelete() {
-		return user.canDelete();
-	}
+/**
+ * Method.
+ * @return publish.
+ */
+@Override
+public boolean canPublish() {
+return true;
+}
+
+/**
+ * Method.
+ * @return comment.
+ */
+@Override
+public boolean canComment() {
+return user.canComment();
+}
+
+/**
+ * Method.
+ * @return approve.
+ */
+@Override
+public boolean canApprove() {
+return user.canApprove();
+}
+
+/**
+ * Method.
+ * @return delete.
+ */
+@Override
+public boolean canDelete() {
+return user.canDelete();
+}
+
 }

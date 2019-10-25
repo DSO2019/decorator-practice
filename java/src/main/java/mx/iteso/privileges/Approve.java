@@ -3,37 +3,67 @@ package mx.iteso.privileges;
 import mx.iteso.PrivilegeDecorator;
 import mx.iteso.User;
 
+/**
+ * Class.
+ */
 public class Approve extends PrivilegeDecorator {
 
-	private User user;
-	
-	public Approve(final User usuario) {
-        this.user = usuario;
-    }
-	
-	@Override
-	public String getDesc() {
-		return user.getDesc() + " approve ";
-	}
+/**
+* User.
+*/
+private User user;
 
-	@Override
-	public boolean canPublish() {
-		return user.canPublish();
-	}
+/**
+* Approve.
+* @param usuario user.
+*/
+public Approve(final User usuario) {
+this.user = usuario;
+ }
 
-	@Override
-	public boolean canComment() {
-		return user.canComment();
-	}
+/**
+ * Method.
+ * @return description.
+ */
+@Override
+public String getDesc() {
+return user.getDesc() + " approve ";
+}
 
-	@Override
-	public boolean canApprove() {
-		return true;
-	}
+/**
+ * Method.
+ * @return publish.
+ */
+@Override
+public boolean canPublish() {
+return user.canPublish();
+}
 
-	@Override
-	public boolean canDelete() {
-		return user.canDelete();
-	}
+/**
+ * Method.
+ * @return comment.
+ */
+@Override
+public boolean canComment() {
+return user.canComment();
+}
+
+/**
+ * Method.
+ * @return approve.
+ */
+@Override
+public boolean canApprove() {
+return true;
+}
+
+/**
+ * Method.
+ * @return delete.
+ */
+@Override
+public boolean canDelete() {
+return user.canDelete();
+}
 
 }
