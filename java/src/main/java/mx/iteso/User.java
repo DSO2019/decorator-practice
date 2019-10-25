@@ -1,11 +1,14 @@
 package mx.iteso;
 
+/**Usuario.*/
 public abstract class User {
 
-    public String description = "Permisos: \n";
+    /**Descripción.*/
+    private String description = "Permisos: \n";
 
-    public String getDescription(){
-        return description; 
+    /**@return Descripción.*/
+    public String getDescription() {
+        return description;
     }
 
 }

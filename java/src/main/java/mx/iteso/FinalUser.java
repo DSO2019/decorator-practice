@@ -1,12 +1,10 @@
 package mx.iteso;
 
+/**Final User.*/
 public class FinalUser extends User {
 
-    public FinalUser(){
+    /**Constructor.*/
+    public FinalUser() {
 
-    }
-
-    public void grantPermit() {
-        
     }
 }

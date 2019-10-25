@@ -1,14 +1,23 @@
 package mx.iteso;
 
-import mx.iteso.*;
-import mx.iteso.privileges.*;
+import mx.iteso.privileges.Approve;
+import mx.iteso.privileges.Publish;
+import mx.iteso.privileges.Delete;
+import mx.iteso.privileges.Comment;
 
-public class Main{
+/**Main.*/
+final class App {
 
-    public static void main(String[] args) {
-     
+    /**Constructor.*/
+    private App() {
+
+    }
+
+    /**
+     * @param args args.
+    */
+    public static void main(final String[] args) {
         User admin = new FinalUser();
-        System.out.println();
         admin = new Approve(admin);
         admin = new Publish(admin);
         admin = new Delete(admin);
@@ -16,13 +25,11 @@ public class Main{
         System.out.println("Admin " + admin.getDescription());
 
         User editor = new FinalUser();
-        System.out.println();
         editor = new Delete(editor);
         editor = new Comment(editor);
         System.out.println("Editor " + editor.getDescription());
 
         User publicador = new FinalUser();
-        System.out.println();
         publicador = new Publish(publicador);
         publicador = new Delete(publicador);
         publicador = new Comment(publicador);
