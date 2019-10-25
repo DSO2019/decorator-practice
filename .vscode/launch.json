@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TuUser",
+            "request": "launch",
+            "mainClass": "mx.iteso.TuUser",
+            "projectName": "decorator-practice"
+        }
+    ]
+}
