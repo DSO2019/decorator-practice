@@ -9,13 +9,9 @@ public class Approve extends PrivilegesDecorator {
     public Approve(User _user) {
         this.user = _user;
     }
-    
-    public void approve() {
-        this.approve = "Con permiso de aprobar";
-    }
 
-    public String print(){
-        return null; 
+    @Override
+    public String getDescription() {
+        return user.getDescription() + "Con permiso para aprovar\n";
     }
-
 }

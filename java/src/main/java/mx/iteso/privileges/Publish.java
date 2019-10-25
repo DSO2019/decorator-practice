@@ -9,13 +9,10 @@ public class Publish extends PrivilegesDecorator {
     public Publish(User _user) {
         this.user = _user;
     }
-    
-    public void publish() {
-        this.publish = "Con permiso de publicar";
-    }
 
-    public String print(){
-        return null; 
+    @Override
+    public String getDescription() {
+        return user.getDescription() + "Con permiso para publicar\n";
     }
 
 }

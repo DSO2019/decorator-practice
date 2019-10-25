@@ -7,13 +7,26 @@ public class Main{
 
     public static void main(String[] args) {
      
-        User user1 = new FinalUser();
-        System.out.println(user1.print());
+        User admin = new FinalUser();
+        System.out.println();
+        admin = new Approve(admin);
+        admin = new Publish(admin);
+        admin = new Delete(admin);
+        admin = new Comment(admin);
+        System.out.println("Admin " + admin.getDescription());
 
-        user1 = new Approve(user1);
-        user1 = new Publish(user1);
-        user1 = new Delete(user1);
-        user1 = new Comment(user1);
+        User editor = new FinalUser();
+        System.out.println();
+        editor = new Delete(editor);
+        editor = new Comment(editor);
+        System.out.println("Editor " + editor.getDescription());
+
+        User publicador = new FinalUser();
+        System.out.println();
+        publicador = new Publish(publicador);
+        publicador = new Delete(publicador);
+        publicador = new Comment(publicador);
+        System.out.println("Publicador " + publicador.getDescription());
 
     }
 }

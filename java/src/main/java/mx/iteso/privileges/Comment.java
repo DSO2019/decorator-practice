@@ -9,13 +9,10 @@ public class Comment extends PrivilegesDecorator {
     public Comment(User _user) {
         this.user = _user;
     }
-    
-    public void comment() {
-        this.comment = "Con permiso de comentar";
-    }
 
-    public String print(){
-        return null; 
+    @Override
+    public String getDescription() {
+        return user.getDescription() + "Con permiso para comentar\n";
     }
 
 }

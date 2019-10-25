@@ -10,14 +10,8 @@ public class Delete extends PrivilegesDecorator {
         this.user = _user;
     }
     
-    public void delete() {
-        this.delete = "Con permiso de borrar";
+    @Override
+    public String getDescription() {
+        return user.getDescription() + "Con permiso para borrar\n";
     }
-    
-    public String print() {
-        return null;
-    }
-
-    
-
 }

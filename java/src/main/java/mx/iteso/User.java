@@ -2,11 +2,10 @@ package mx.iteso;
 
 public abstract class User {
 
-    public String publish;
-    public String approve;
-    public String delete;
-    public String comment;
+    public String description = "Permisos: \n";
 
-    public abstract String print();
+    public String getDescription(){
+        return description; 
+    }
 
 }
