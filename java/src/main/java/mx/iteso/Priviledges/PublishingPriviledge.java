@@ -3,6 +3,9 @@ package mx.iteso.Priviledges;
 import mx.iteso.Priviledge;
 import mx.iteso.User;
 
+/**
+ * Clase para poder publicar cosas.
+ */
 public class PublishingPriviledge extends Priviledge {
     /**
      * Se implementa usuario.

@@ -1,5 +1,8 @@
 package mx.iteso;
 
+/**
+ * Clase abstracta para crear decorators.
+ */
 public abstract class Priviledge extends User {
     /**
      * Para implementar decoration.

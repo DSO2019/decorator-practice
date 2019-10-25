@@ -3,6 +3,9 @@ package mx.iteso.Priviledges;
 import mx.iteso.Priviledge;
 import mx.iteso.User;
 
+/**
+ * Clase para poder borrar cosas.
+ */
 public class DeletingPriviledge extends Priviledge {
     /**
      * Se implementa usuario.

@@ -1,14 +1,21 @@
 package mx.iteso;
 
+/**
+ * Clase abstracta de usuario.
+ */
 public abstract class User {
     /**
      * Inicializar variable del nombre de los privilegios.
      */
-    public String privilegio = "Tienes el privilegio de : ";
+    private String privilegio;
+
     /**
-     * Nombre de tipo de poderes
+     * Clase de getters.
+     * @return string
      */
-    public String userTypeName = "";
+    public String getPrivilegio() {
+        return "Tienes el privilegio de : ";
+    }
 
     /***
      * Va por los nombres de los privilegios.
@@ -21,7 +28,7 @@ public abstract class User {
      * Usuarios al no tiene privilegio de approving.
      * @return string hasta que se modifique
      */
-    public String approvingPriviledgeUser(){
+    public String approvingPriviledgeUser() {
         return null;
     }
 
@@ -29,7 +36,7 @@ public abstract class User {
      * Usuarios al no tiene privilegio de commenting.
      * @return string hasta que se modifique
      */
-    public String commentingPriviledgeUser(){
+    public String commentingPriviledgeUser() {
         return null;
     }
 
@@ -37,7 +44,7 @@ public abstract class User {
      * Usuarios al no tiene privilegio de deleting.
      * @return string hasta que se modifique
      */
-    public String deletingPriviledgeUser(){
+    public String deletingPriviledgeUser() {
         return null;
     }
 
@@ -45,7 +52,7 @@ public abstract class User {
      * Usuarios al no tiene privilegio de publish.
      * @return string hasta que se modifique
      */
-    public String publisherPriviledgeUser(){
+    public String publisherPriviledgeUser() {
         return null;
     }
 }

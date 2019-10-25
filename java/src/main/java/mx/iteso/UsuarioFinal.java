@@ -1,6 +1,9 @@
 package mx.iteso;
 
-public class usuarioFinal extends User{
+/**
+ * Usuario para inicializar en negativo.
+ */
+public class UsuarioFinal extends User {
     /***
      * Va por los nombres de los privilegios.
      * @return String de privilegios que tiene
