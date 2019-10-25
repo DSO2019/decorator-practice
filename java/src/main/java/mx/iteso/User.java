@@ -7,6 +7,11 @@ public abstract class User {
     public boolean canComment = false;
     public boolean canDelete = false;
 
+    public String publishPermission;
+    public String deletePermission;
+    public String commentPermission;
+    public String approvePermission;
+
     public String getName() {
         return this.name;
     }

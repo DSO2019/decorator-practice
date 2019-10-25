@@ -28,6 +28,7 @@ public class Publish extends PrivilegeDecorator {
     @Override
     public String publish() {
         this.user.canPublish = true;
-        return this.privilege;
+        this.publishPermission = this.privilege;
+        return this.publishPermission;
     }
 }

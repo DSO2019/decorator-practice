@@ -23,7 +23,8 @@ public class Comment extends PrivilegeDecorator {
     @Override
     public String comment() {
         this.user.canComment = true;
-        return this.privilege;
+        this.commentPermission = this.privilege;
+        return this.commentPermission;
     }
 
     @Override

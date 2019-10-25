@@ -18,7 +18,8 @@ public class Approve extends PrivilegeDecorator {
     @Override
     public String approve() {
         this.user.canApprove = true;
-        return this.privilege;
+        this.approvePermission = this.privilege;
+        return this.approvePermission;
     }
 
     @Override

@@ -12,7 +12,8 @@ public class Delete extends PrivilegeDecorator {
     @Override
     public String delete () {
         this.user.canDelete = true;
-        return this.privilege;
+        this.deletePermission = this.privilege;
+        return this.deletePermission;
     }
 
     @Override
