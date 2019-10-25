@@ -8,7 +8,7 @@ public class Delete extends PrivilegesDecorator {
     }
 
     public String publish() {
-        return null;
+        return user.publish();
     }
 
     public String delete() {
@@ -16,10 +16,10 @@ public class Delete extends PrivilegesDecorator {
     }
 
     public String approve() {
-        return null;
+        return user.approve();
     }
 
     public String comment() {
-        return null;
+        return user.comment();
     }
 }

@@ -7,11 +7,11 @@ public class Approve extends PrivilegesDecorator {
         this.user = userIn;
     }
     public String publish() {
-        return null;
+        return user.publish();
     }
 
     public String delete() {
-        return null;
+        return user.delete();
     }
 
     public String approve() {
@@ -19,6 +19,6 @@ public class Approve extends PrivilegesDecorator {
     }
 
     public String comment() {
-        return null;
+        return user.comment();
     }
 }

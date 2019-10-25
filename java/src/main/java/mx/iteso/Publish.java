@@ -12,14 +12,14 @@ public class Publish extends PrivilegesDecorator {
     }
 
     public String delete() {
-        return null;
+        return user.delete();
     }
 
     public String approve() {
-        return null;
+        return user.approve();
     }
 
     public String comment() {
-        return null;
+        return user.comment();
     }
 }

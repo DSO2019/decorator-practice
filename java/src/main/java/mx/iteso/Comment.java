@@ -8,15 +8,15 @@ public class Comment extends PrivilegesDecorator {
     }
 
     public String publish() {
-        return null;
+        return user.publish();
     }
 
     public String delete() {
-        return null;
+        return user.delete();
     }
 
     public String approve() {
-        return null;
+        return user.approve();
     }
 
     public String comment() {
