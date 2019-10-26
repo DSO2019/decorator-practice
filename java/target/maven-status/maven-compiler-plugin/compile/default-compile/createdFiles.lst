@@ -1,0 +1,6 @@
+mx/iteso/PermissionsDecorator.class
+mx/iteso/BaseUser.class
+mx/iteso/EditorPermissions.class
+mx/iteso/AdminPermissions.class
+mx/iteso/User.class
+mx/iteso/PublisherPermissions.class

@@ -1,6 +1,6 @@
 package mx.iteso;
 
-public abstract class AdminPermissions extends PermissionsDecorator {
+public class AdminPermissions extends PermissionsDecorator {
     User user;
 
     public AdminPermissions(User user){
@@ -13,22 +13,22 @@ public abstract class AdminPermissions extends PermissionsDecorator {
     }
 
     public boolean canApprove(){
-        System.out.println("You can approve.")
+        System.out.println("You can approve.");
         return true;
     }
 
     public boolean canComment(){
-        System.out.println("You can comment.")
+        System.out.println("You can comment.");
         return true;
     }
 
     public boolean canDelete(){
-        System.out.println("You can delete.")
+        System.out.println("You can delete.");
         return true;
     }
 
     public boolean canPublish(){
-        System.out.println("You can publish.")
+        System.out.println("You can publish.");
         return true;
     }
 }
