@@ -1,33 +1,62 @@
 package mx.iteso;
-
+/**
+    Admin permissions class.
+ */
 public class AdminPermissions extends PermissionsDecorator {
-    User user;
+    /**
+     * User.
+     */
+    private User user;
 
-    public AdminPermissions(User user){
-        this.user = user;
+    /**
+     * Constructor.
+     * @param usr user.
+     */
+    public AdminPermissions(final User usr) {
+        this.user = usr;
     }
 
+    /**
+     * getDescription.
+     * @return description.
+     */
     @Override
     public String getDescription() {
         return "Admin " + user.getDescription();
     }
 
-    public boolean canApprove(){
+    /**
+     * canApprove.
+     * @return permission.
+     */
+    public boolean canApprove() {
         System.out.println("You can approve.");
         return true;
     }
 
-    public boolean canComment(){
+    /**
+     * canComment.
+     * @return permission.
+     */
+    public boolean canComment() {
         System.out.println("You can comment.");
         return true;
     }
 
-    public boolean canDelete(){
+    /**
+     * canDelete.
+     * @return permission.
+     */
+    public boolean canDelete() {
         System.out.println("You can delete.");
         return true;
     }
 
-    public boolean canPublish(){
+    /**
+     * canPublish.
+     * @return permission.
+     */
+    public boolean canPublish() {
         System.out.println("You can publish.");
         return true;
     }

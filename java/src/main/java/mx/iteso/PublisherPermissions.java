@@ -1,33 +1,62 @@
 package mx.iteso;
-
+/**
+    Publisher permissions class.
+ */
 public class PublisherPermissions extends PermissionsDecorator {
-    User user;
+    /**
+     * User.
+     */
+    private User user;
 
-    public PublisherPermissions(User user){
-        this.user = user;
+    /**
+     * Constructor.
+     * @param usr user.
+     */
+    public PublisherPermissions(final User usr) {
+        this.user = usr;
     }
 
+    /**
+     * getDescription.
+     * @return description.
+     */
     @Override
     public String getDescription() {
         return "Publisher " + user.getDescription();
     }
 
-    public boolean canPublish(){
+    /**
+     * canPublish.
+     * @return permission.
+     */
+    public boolean canPublish() {
         System.out.println("You can publish.");
         return true;
     }
 
-    public boolean canApprove(){
+    /**
+     * canApprove.
+     * @return permission.
+     */
+    public boolean canApprove() {
         System.out.println("You can not approve.");
         return false;
     }
 
-    public boolean canComment(){
+    /**
+     * canComment.
+     * @return permission.
+     */
+    public boolean canComment() {
         System.out.println("You can not comment.");
         return false;
     }
-    
-    public boolean canDelete(){
+
+    /**
+     * canDelete.
+     * @return permission.
+     */
+    public boolean canDelete() {
         System.out.println("You can not delete.");
         return false;
     }
