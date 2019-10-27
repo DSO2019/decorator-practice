@@ -1,20 +1,17 @@
-package mx.iteso.users;
+package mx.iteso;
 
 import mx.iteso.User;
 
 public class UserBase extends User {
-
-    public UserBase(){
-        this.description = "Base user > ";
-    }
     
+
     @Override
     public boolean publish() {
         return false;
     }
 
     @Override
-    public boolean edit() {
+    public boolean comment() {
         return false;
     }
 

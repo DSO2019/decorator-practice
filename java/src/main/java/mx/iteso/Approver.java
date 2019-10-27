@@ -1,18 +1,18 @@
-package mx.iteso.privileges;
+package mx.iteso;
 
 import mx.iteso.PrivilegeDecorator;
 import mx.iteso.User;
 
-public class Deleter extends PrivilegeDecorator {
+public class Approver extends PrivilegeDecorator {
     private User user;
 
-    public Deleter(User user) {
+    public Approver(User user) {
         this.user = user;
     }
 
     @Override
     public String getDescription() {
-        return this.user.getDescription() + " Can delete";
+        return this.user.getDescription() + " Can approve";
     }
 
     @Override
@@ -22,16 +22,16 @@ public class Deleter extends PrivilegeDecorator {
 
     @Override
     public boolean delete() {
-        return true;
+        return this.user.delete();
     }
 
     @Override
     public boolean approve() {
-        return this.user.approve();
+        return true;
     }
 
     @Override
-    public boolean edit() {
-        return this.user.edit();
+    public boolean comment() {
+        return this.user.comment();
     }
 }

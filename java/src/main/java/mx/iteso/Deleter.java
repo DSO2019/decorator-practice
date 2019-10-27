@@ -1,18 +1,18 @@
-package mx.iteso.privileges;
+package mx.iteso;
 
 import mx.iteso.PrivilegeDecorator;
 import mx.iteso.User;
 
-public class Editor extends PrivilegeDecorator {
+public class Deleter extends PrivilegeDecorator {
     private User user;
 
-    public Editor(User user) {
+    public Deleter(User user) {
         this.user = user;
     }
 
     @Override
     public String getDescription() {
-         return this.user.getDescription() + " Can edit";
+        return this.user.getDescription() + " Can delete";
     }
 
     @Override
@@ -22,7 +22,7 @@ public class Editor extends PrivilegeDecorator {
 
     @Override
     public boolean delete() {
-        return this.user.delete();
+        return true;
     }
 
     @Override
@@ -31,7 +31,7 @@ public class Editor extends PrivilegeDecorator {
     }
 
     @Override
-    public boolean edit() {
-        return true;
+    public boolean comment() {
+        return this.user.comment();
     }
 }

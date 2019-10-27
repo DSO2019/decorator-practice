@@ -1,23 +1,23 @@
-package mx.iteso.privileges;
+package mx.iteso;
 
 import mx.iteso.PrivilegeDecorator;
 import mx.iteso.User;
 
-public class Approver extends PrivilegeDecorator {
+public class Publisher extends PrivilegeDecorator {
     private User user;
 
-    public Approver(User user) {
+    public Publisher(User user) {
         this.user = user;
     }
 
     @Override
     public String getDescription() {
-        return this.user.getDescription() + " Can approve";
+         return this.user.getDescription() + " Can publish";
     }
 
     @Override
     public boolean publish() {
-        return this.user.publish();
+        return true;
     }
 
     @Override
@@ -27,11 +27,11 @@ public class Approver extends PrivilegeDecorator {
 
     @Override
     public boolean approve() {
-        return true;
+        return this.user.approve();
     }
 
     @Override
-    public boolean edit() {
-        return this.user.edit();
+    public boolean comment() {
+        return this.user.comment();
     }
 }
