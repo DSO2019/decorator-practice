@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="Publisher_tests.py" name="Publisher_tests.PublisherTest-20191028105931" skipped="0" tests="2" time="0.018" timestamp="2019-10-28T10:59:31">
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="10" name="test_PublishPermission" time="0.002" timestamp="2019-10-28T10:59:31">
+		<system-out>
+<![CDATA[Publish permission enabled
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="16" name="test_Description" time="0.016" timestamp="2019-10-28T10:59:31">
+		<error message="maximum recursion depth exceeded" type="RecursionError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Publisher_tests.py", line 18, in test_Description
+    print(publisher.getDescription())
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  [Previous line repeated 961 more times]
+RecursionError: maximum recursion depth exceeded
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

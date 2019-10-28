@@ -1,7 +1,7 @@
 package mx.iteso;
 
 /** Approval privlege class. */
-public class Approval extends User {
+public class Approval extends PrivilegesDecorator {
     /** Real User to decorate. */
     private final User user;
 

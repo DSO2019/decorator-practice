@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="Publisher_tests.py" name="Publisher_tests.PublisherTest-20191028104703" skipped="0" tests="2" time="0.005" timestamp="2019-10-28T10:47:03">
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="16" name="test_Description" time="0.003" timestamp="2019-10-28T10:47:03">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="10" name="test_PublishPermission" time="0.002" timestamp="2019-10-28T10:47:03">
+		<system-out>
+<![CDATA[Publish permission enabled
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

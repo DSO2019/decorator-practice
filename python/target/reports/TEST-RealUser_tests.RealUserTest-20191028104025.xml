@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="4" failures="0" file="RealUser_tests.py" name="RealUser_tests.RealUserTest-20191028104025" skipped="0" tests="4" time="0.006" timestamp="2019-10-28T10:40:26">
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="16" name="test_ApprovalPermission" time="0.002" timestamp="2019-10-28T10:40:26">
+		<error message="Can't instantiate abstract class RealUser with abstract methods getDescription" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\RealUser_tests.py", line 8, in setUp
+    self.user = RealUser()
+TypeError: Can't instantiate abstract class RealUser with abstract methods getDescription
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="19" name="test_CommentPermission" time="0.001" timestamp="2019-10-28T10:40:26">
+		<error message="Can't instantiate abstract class RealUser with abstract methods getDescription" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\RealUser_tests.py", line 8, in setUp
+    self.user = RealUser()
+TypeError: Can't instantiate abstract class RealUser with abstract methods getDescription
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="13" name="test_DeletionPermission" time="0.002" timestamp="2019-10-28T10:40:26">
+		<error message="Can't instantiate abstract class RealUser with abstract methods getDescription" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\RealUser_tests.py", line 8, in setUp
+    self.user = RealUser()
+TypeError: Can't instantiate abstract class RealUser with abstract methods getDescription
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="10" name="test_PublishPermission" time="0.001" timestamp="2019-10-28T10:40:26">
+		<error message="Can't instantiate abstract class RealUser with abstract methods getDescription" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\RealUser_tests.py", line 8, in setUp
+    self.user = RealUser()
+TypeError: Can't instantiate abstract class RealUser with abstract methods getDescription
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

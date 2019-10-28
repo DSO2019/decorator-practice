@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" file="Deletion_tests.py" name="Deletion_tests.DeletionTest-20191028105059" skipped="0" tests="2" time="0.002" timestamp="2019-10-28T10:50:59">
+	<testcase classname="Deletion_tests.DeletionTest" file="src\unittest\python\Deletion_tests.py" line="10" name="testDeletionPermission" time="0.001" timestamp="2019-10-28T10:50:59">
+		<error message="name 'Deletion' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Deletion_tests.py", line 11, in testDeletionPermission
+    deletion = Deletion(self.user)
+NameError: name 'Deletion' is not defined
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Deletion_tests.DeletionTest" file="src\unittest\python\Deletion_tests.py" line="16" name="testDescription" time="0.001" timestamp="2019-10-28T10:50:59">
+		<error message="name 'Deletion' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Deletion_tests.py", line 17, in testDescription
+    deletion = Deletion(self.user)
+NameError: name 'Deletion' is not defined
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

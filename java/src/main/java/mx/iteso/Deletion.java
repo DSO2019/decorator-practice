@@ -1,7 +1,7 @@
 package mx.iteso;
 
 /** Deletion privlege class. */
-public class Deletion extends User {
+public class Deletion extends PrivilegesDecorator {
     /** Real User to decorate. */
     private final User user;
 

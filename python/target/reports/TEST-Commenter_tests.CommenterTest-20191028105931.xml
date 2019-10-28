@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="Commenter_tests.py" name="Commenter_tests.CommenterTest-20191028105931" skipped="0" tests="2" time="0.003" timestamp="2019-10-28T10:59:31">
+	<testcase classname="Commenter_tests.CommenterTest" file="src\unittest\python\Commenter_tests.py" line="10" name="test_CommentPermission" time="0.002" timestamp="2019-10-28T10:59:31">
+		<system-out>
+<![CDATA[Commenting permission enabled
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Commenter_tests.CommenterTest" file="src\unittest\python\Commenter_tests.py" line="16" name="test_Description" time="0.001" timestamp="2019-10-28T10:59:31">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

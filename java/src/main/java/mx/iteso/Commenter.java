@@ -1,7 +1,7 @@
 package mx.iteso;
 
 /** Commenter privlege class. */
-public class Commenter extends User {
+public class Commenter extends PrivilegesDecorator {
     /** Real User to decorate. */
     private final User user;
 

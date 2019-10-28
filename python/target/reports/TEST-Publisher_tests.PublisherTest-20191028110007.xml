@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" file="Publisher_tests.py" name="Publisher_tests.PublisherTest-20191028110007" skipped="0" tests="2" time="0.016" timestamp="2019-10-28T11:00:07">
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="16" name="test_Description" time="0.014" timestamp="2019-10-28T11:00:07">
+		<error message="maximum recursion depth exceeded" type="RecursionError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Publisher_tests.py", line 18, in test_Description
+    print(publisher.getDescription())
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\main\python\Publisher.py", line 6, in getDescription
+    return "Publisher: " + self.getDescription()
+  [Previous line repeated 961 more times]
+RecursionError: maximum recursion depth exceeded
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="10" name="test_PublishPermission" time="0.002" timestamp="2019-10-28T11:00:07">
+		<error message="You tried to stub a method 'publishPermission' the object (test_PublishPermission (Publisher_tests.PublisherTest)) doesn't have." type="InvocationError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Publisher_tests.py", line 12, in test_PublishPermission
+    when(self).publishPermission().thenReturn(False)
+  File "c:\program files (x86)\python37\lib\site-packages\mockito\invocation.py", line 293, in __call__
+    self.ensure_mocked_object_has_method(self.method_name)
+  File "c:\program files (x86)\python37\lib\site-packages\mockito\invocation.py", line 282, in ensure_mocked_object_has_method
+    "have." % (method_name, self.mock.mocked_obj))
+mockito.invocation.InvocationError: You tried to stub a method 'publishPermission' the object (test_PublishPermission (Publisher_tests.PublisherTest)) doesn't have.
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
