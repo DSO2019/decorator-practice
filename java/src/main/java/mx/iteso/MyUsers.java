@@ -6,11 +6,23 @@ import mx.iteso.privileges.Delete;
 import mx.iteso.privileges.Publish;
 import mx.iteso.users.EndUser;
 
-import java.net.PortUnreachableException;
+/**
+ * Created by Maggie Jauregui on 10/25/19.
+ */
+public final class MyUsers {
 
-public class MyUsers {
+    /**
+     * Class constructor.
+     */
+    private MyUsers() {
 
-    public static void main(String[] args) {
+    }
+
+    /**
+     * Main method to run.
+     * @param args input args.
+     */
+    public static void main(final String[] args) {
         String adminPermissions;
 
         //Admin user
@@ -23,15 +35,15 @@ public class MyUsers {
         Publish adminPublish = new Publish(admin);
 
         //Giving permissions to Admin
-        admin.publishPermission = adminPublish.publish();
-        admin.commentPermission = adminComment.comment();
-        admin.deletePermission = adminDelete.delete();
-        admin.approvePermission = adminAprrove.approve();
+        admin.setPublish(adminPublish.publish());
+        admin.setComment(adminComment.comment());
+        admin.setDelete(adminDelete.delete());
+        admin.setApprove(adminAprrove.approve());
 
-        System.out.println(admin.name + " " + admin.approvePermission);
-        System.out.println(admin.name + " " + admin.deletePermission);
-        System.out.println(admin.name + " " + admin.publishPermission);
-        System.out.println(admin.name + " " + admin.commentPermission);
+        System.out.println(admin.getName() + " " + admin.getApprove());
+        System.out.println(admin.getName() + " " + admin.getDelete());
+        System.out.println(admin.getName() + " " + admin.getComment());
+        System.out.println(admin.getName() + " " + admin.getPublish());
 
 
 
@@ -43,13 +55,13 @@ public class MyUsers {
         Publish publisherPublish = new Publish(publisher);
 
         //Giving permissions to Publisher
-        publisher.publishPermission = publisherPublish.publish();
-        publisher.approvePermission = publisherAprrove.approve();
+        publisher.setPublish(publisherPublish.publish());
+        publisher.setApprove(publisherAprrove.approve());
 
-        System.out.println(publisher.name + " " + publisher.approvePermission);
-        System.out.println(publisher.name + " " + publisher.deletePermission);
-        System.out.println(publisher.name + " " + publisher.publishPermission);
-        System.out.println(publisher.name + " " + publisher.commentPermission);
+        System.out.println(publisher.getName() + " " + publisher.getApprove());
+        System.out.println(publisher.getName() + " " + publisher.getDelete());
+        System.out.println(publisher.getName() + " " + publisher.getPublish());
+        System.out.println(publisher.getName() + " " + publisher.getComment());
 
 
 
@@ -61,13 +73,13 @@ public class MyUsers {
         Publish editorPublish = new Publish(editor);
 
         //Giving permissions to Editor
-        editor.publishPermission = editorPublish.publish();
-        editor.commentPermission = editorComment.comment();
+        editor.setPublish(editorPublish.publish());
+        editor.setComment(editorComment.comment());
 
-        System.out.println(editor.name + " " + editor.approvePermission);
-        System.out.println(editor.name + " " + editor.deletePermission);
-        System.out.println(editor.name + " " + editor.publishPermission);
-        System.out.println(editor.name + " " + editor.commentPermission);
+        System.out.println(editor.getName() + " " + editor.getApprove());
+        System.out.println(editor.getName() + " " + editor.getDelete());
+        System.out.println(editor.getName() + " " + editor.getComment());
+        System.out.println(editor.getName() + " " + editor.getPublish());
 
 
 
