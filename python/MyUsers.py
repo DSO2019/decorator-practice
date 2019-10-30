@@ -4,8 +4,10 @@ from comment import Comment
 from publish import Publish
 from EndUser import EndUser
 
+
 def __init__(self):
     pass
+
 
 def main():
     admin = EndUser("Admin")
