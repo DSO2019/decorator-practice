@@ -1,0 +1,8 @@
+*.pyc
+*.class
+*.xml
+#Directories
+.idea/
+java/target/
+python/target
+.coverage
