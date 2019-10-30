@@ -1,0 +1,10 @@
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/Admin.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/priviliges/CommentPrivilege.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/priviliges/PublishPrivilege.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/priviliges/AprovePrivilege.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/User.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/priviliges/DeletePrivilege.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/Editor.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/Publisher.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/PrivilegeDecorator.java
+/home/joseluis/Documentos/ITESO/DSO/decorator-practice/java/src/main/java/mx/iteso/EndUser.java

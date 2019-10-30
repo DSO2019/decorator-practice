@@ -1,3 +1,5 @@
+package mx.iteso;
+
 
 public class PublishPrivilege extends PrivilegeDecorator{
     User user;
@@ -8,13 +10,31 @@ public class PublishPrivilege extends PrivilegeDecorator{
 
     @Override
     public String getPrivilege(){
-        return user.getUsername + "puede Publicar";
+        return this.user.getUsername() + " puede publicar";
     }
 
     @Override
     public boolean publish(){
         System.out.print("Publicación hecha");
         return true;
+    }
+
+    @Override
+    public boolean aprove(){
+        return this.user.aprove();
+
+    }
+
+    @Override
+    public boolean delete(){
+        return this.user.delete();
+
+    }
+
+    @Override
+    public boolean comment(){
+        return this.user.comment();
+
     }
 
    

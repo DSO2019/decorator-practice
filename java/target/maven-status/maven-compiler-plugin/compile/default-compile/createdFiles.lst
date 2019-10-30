@@ -1,0 +1,7 @@
+mx/iteso/DeletePrivilege.class
+mx/iteso/PrivilegeDecorator.class
+mx/iteso/AprovePrivilege.class
+mx/iteso/EndUser.class
+mx/iteso/CommentPrivilege.class
+mx/iteso/User.class
+mx/iteso/PublishPrivilege.class
