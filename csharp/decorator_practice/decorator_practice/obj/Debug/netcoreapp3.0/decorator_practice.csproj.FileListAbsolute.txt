@@ -1,0 +1,8 @@
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\bin\Debug\netcoreapp3.0\decorator_practice.exe
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\obj\Debug\netcoreapp3.0\decorator_practice.csprojAssemblyReference.cache
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\obj\Debug\netcoreapp3.0\decorator_practice.AssemblyInfoInputs.cache
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\obj\Debug\netcoreapp3.0\decorator_practice.AssemblyInfo.cs
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\bin\Debug\netcoreapp3.0\nunit.framework.dll
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\obj\Debug\netcoreapp3.0\decorator_practice.csproj.CopyComplete
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\bin\Debug\netcoreapp3.0\Castle.Core.dll
+C:\Users\Bernardo Elizondo\Desktop\decorator-practice\csharp\decorator_practice\decorator_practice\bin\Debug\netcoreapp3.0\Moq.dll
