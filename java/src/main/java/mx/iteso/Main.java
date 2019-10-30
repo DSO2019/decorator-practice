@@ -1,8 +1,22 @@
 package mx.iteso;
 
-public class Main {
+/**
+ * Created by ElMaligno666 on October 2019.
+ */
+final class Main {
 
-    public static void main(String[] args) {
+    /**
+     * Main constructor.
+     */
+    private Main() {
+
+    }
+
+    /**
+     * @param args
+     * Main class for testing.
+     */
+    public static void main(final String[] args) {
         User admin = new FinalUser();
         System.out.println(admin.approve());
         System.out.println(admin.publish());
