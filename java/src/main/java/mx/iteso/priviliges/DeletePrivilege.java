@@ -1,40 +1,50 @@
 package mx.iteso;
 
-public class DeletePrivilege extends PrivilegeDecorator{
-    User user;
+/**
+ * Clase de privilegio.
+ */
+public class DeletePrivilege extends PrivilegeDecorator {
+    /**
+     * Variable de usuario.
+     */
+    private User user;
 
-    public DeletePrivilege(User user){
-        this.user = user;
+    /**
+     * Creación del privilegio.
+     * @param newuser usuario.
+     */
+    public DeletePrivilege(final User newuser) {
+        this.user = newuser;
     }
 
     @Override
-    public String getPrivilege(){
+    public final String getPrivilege() {
         return this.user.getUsername() + " puede borrar";
     }
 
 
     @Override
-    public boolean delete(){
+    public static boolean delete() {
         System.out.print("Eliminación hecha");
         return true;
     }
 
     @Override
-    public boolean aprove(){
+    public static boolean aprove() {
         return this.user.aprove();
 
     }
 
     @Override
-    public boolean comment(){
+    public static boolean comment() {
         return this.user.comment();
 
     }
 
     @Override
-    public boolean publish(){
+    public static boolean publish() {
         return this.user.publish();
 
     }
-    
+
 }

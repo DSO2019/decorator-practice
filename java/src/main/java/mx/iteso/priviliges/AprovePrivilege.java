@@ -1,38 +1,48 @@
 package mx.iteso;
 
-public class AprovePrivilege extends PrivilegeDecorator{
-    User user;
+/**
+ * Clase de privilegio.
+ */
+public class AprovePrivilege extends PrivilegeDecorator {
+    /**
+     * Variable de usuario.
+     */
+    private User user;
 
-    public AprovePrivilege(User user){
-        this.user = user;
+    /**
+     * Creación del privilegio.
+     * @param newuser usuario.
+     */
+    public AprovePrivilege(final User newuser) {
+        this.user = newuser;
     }
 
     @Override
-    public String getPrivilege(){
+    public final String getPrivilege() {
         return this.user.getUsername() + " puede aprobar";
     }
 
     @Override
-    public boolean aprove(){
+    public static boolean aprove() {
         System.out.print("Aprobación hecha");
         return true;
     }
 
     @Override
-    public boolean comment(){
+    public static boolean comment() {
         return this.user.comment();
 
     }
 
 
     @Override
-    public boolean delete(){
+    public static boolean delete() {
         return this.user.delete();
 
     }
 
     @Override
-    public boolean publish(){
+    public static boolean publish() {
         return this.user.publish();
 
     }

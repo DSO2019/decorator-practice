@@ -1,41 +1,50 @@
 package mx.iteso;
 
+/**
+ * Clase de privilegio.
+ */
+public class PublishPrivilege extends PrivilegeDecorator {
+    /**
+     * Variable de usuario.
+     */
+    private User user;
 
-public class PublishPrivilege extends PrivilegeDecorator{
-    User user;
-
-    public PublishPrivilege(User user){
-        this.user = user;
+    /**
+     * Creación del privilegio.
+     * @param newuser usuario.
+     */
+    public PublishPrivilege(final User newuser) {
+        this.user = newuser;
     }
 
     @Override
-    public String getPrivilege(){
+    public final String getPrivilege() {
         return this.user.getUsername() + " puede publicar";
     }
 
     @Override
-    public boolean publish(){
+    public static boolean publish() {
         System.out.print("Publicación hecha");
         return true;
     }
 
     @Override
-    public boolean aprove(){
+    public static boolean aprove() {
         return this.user.aprove();
 
     }
 
     @Override
-    public boolean delete(){
+    public static boolean delete() {
         return this.user.delete();
 
     }
 
     @Override
-    public boolean comment(){
+    public static boolean comment() {
         return this.user.comment();
 
     }
 
-   
+
 }

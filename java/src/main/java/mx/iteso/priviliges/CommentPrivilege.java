@@ -1,37 +1,47 @@
 package mx.iteso;
 
-public class CommentPrivilege extends PrivilegeDecorator{
-    User user;
+/**
+ * Clase de privilegio.
+ */
+public class CommentPrivilege extends PrivilegeDecorator {
+    /**
+     * Variable de usuario.
+     */
+    private User user;
 
-    public CommentPrivilege(User user){
-        this.user = user;
+    /**
+     * Creación del privilegio.
+     * @param newuser usuario.
+     */
+    public CommentPrivilege(final User newuser) {
+        this.user = newuser;
     }
 
     @Override
-    public String getPrivilege(){
+    public final String getPrivilege() {
         return this.user.getUsername() + " puede comentar";
     }
 
     @Override
-    public boolean comment(){
+    public static boolean comment() {
         System.out.print("Comentario hecho");
         return true;
     }
 
     @Override
-    public boolean aprove(){
+    public static boolean aprove() {
         return this.user.aprove();
 
     }
 
     @Override
-    public boolean delete(){
+    public static boolean delete() {
         return this.user.delete();
 
     }
 
     @Override
-    public boolean publish(){
+    public static boolean publish() {
         return this.user.publish();
 
     }
