@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="User_tests.py" name="User_tests.User_test-20191030163819" skipped="0" tests="1" time="0.012" timestamp="2019-10-30T16:38:19">
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="11" name="test_getUsername" time="0.012" timestamp="2019-10-30T16:38:19">
+		<error message="'User' object has no attribute 'getUsename'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/User_tests.py", line 12, in test_getUsername
+    self.assertEqual("username",self.user.getUsename())
+AttributeError: 'User' object has no attribute 'getUsename'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

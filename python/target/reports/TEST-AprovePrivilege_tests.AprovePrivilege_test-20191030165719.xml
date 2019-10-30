@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="AprovePrivilege_tests.py" name="AprovePrivilege_tests.AprovePrivilege_test-20191030165719" skipped="0" tests="1" time="0.004" timestamp="2019-10-30T16:57:19">
+	<testcase classname="AprovePrivilege_tests.AprovePrivilege_test" file="src/unittest/python/AprovePrivilege_tests.py" line="13" name="test_aprove" time="0.004" timestamp="2019-10-30T16:57:19">
+		<error message="'bool' object is not iterable" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/AprovePrivilege_tests.py", line 14, in test_aprove
+    self.assertCountEqual(True, self.priv.aprove())
+  File "/home/joseluis/miniconda3/lib/python3.7/unittest/case.py", line 1182, in assertCountEqual
+    first_seq, second_seq = list(first), list(second)
+TypeError: 'bool' object is not iterable
+]]>		</error>
+		<system-out>
+<![CDATA[Aprobación hecha
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

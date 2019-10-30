@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="PrivilegeDecorator_tests.py" name="PrivilegeDecorator_tests.PrivilegeDecorator_test-20191030171250" skipped="0" tests="1" time="0.000" timestamp="2019-10-30T17:12:50">
+	<testcase classname="PrivilegeDecorator_tests.PrivilegeDecorator_test" file="src/unittest/python/PrivilegeDecorator_tests.py" line="13" name="test_user" time="0.000" timestamp="2019-10-30T17:12:50">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

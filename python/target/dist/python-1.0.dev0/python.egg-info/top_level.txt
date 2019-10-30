@@ -1,0 +1,7 @@
+AprovePrivilege
+CommentPrivilege
+DeletePrivilege
+EndUser
+PrivilegeDecorator
+PublishPrivilege
+User

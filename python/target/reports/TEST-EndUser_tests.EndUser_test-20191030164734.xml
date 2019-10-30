@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="4" failures="0" file="EndUser_tests.py" name="EndUser_tests.EndUser_test-20191030164734" skipped="0" tests="4" time="0.001" timestamp="2019-10-30T16:47:34">
+	<testcase classname="EndUser_tests.EndUser_test" file="src/unittest/python/EndUser_tests.py" line="17" name="test_aprove" time="0.000" timestamp="2019-10-30T16:47:34">
+		<error message="__init__() missing 1 required positional argument: 'username'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/EndUser_tests.py", line 9, in setUp
+    self.endUser = EndUser()
+TypeError: __init__() missing 1 required positional argument: 'username'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="EndUser_tests.EndUser_test" file="src/unittest/python/EndUser_tests.py" line="20" name="test_comment" time="0.000" timestamp="2019-10-30T16:47:34">
+		<error message="__init__() missing 1 required positional argument: 'username'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/EndUser_tests.py", line 9, in setUp
+    self.endUser = EndUser()
+TypeError: __init__() missing 1 required positional argument: 'username'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="EndUser_tests.EndUser_test" file="src/unittest/python/EndUser_tests.py" line="14" name="test_delete" time="0.000" timestamp="2019-10-30T16:47:34">
+		<error message="__init__() missing 1 required positional argument: 'username'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/EndUser_tests.py", line 9, in setUp
+    self.endUser = EndUser()
+TypeError: __init__() missing 1 required positional argument: 'username'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="EndUser_tests.EndUser_test" file="src/unittest/python/EndUser_tests.py" line="11" name="test_publish" time="0.000" timestamp="2019-10-30T16:47:34">
+		<error message="__init__() missing 1 required positional argument: 'username'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/joseluis/Documentos/ITESO/DSO/decorator-practice/python/src/unittest/python/EndUser_tests.py", line 9, in setUp
+    self.endUser = EndUser()
+TypeError: __init__() missing 1 required positional argument: 'username'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

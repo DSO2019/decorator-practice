@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="User_tests.py" name="User_tests.User_test-20191030165654" skipped="0" tests="1" time="0.000" timestamp="2019-10-30T16:56:54">
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="11" name="test_getUsername" time="0.000" timestamp="2019-10-30T16:56:54">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

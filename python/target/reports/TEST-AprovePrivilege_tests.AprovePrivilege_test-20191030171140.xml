@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="AprovePrivilege_tests.py" name="AprovePrivilege_tests.AprovePrivilege_test-20191030171140" skipped="0" tests="1" time="0.004" timestamp="2019-10-30T17:11:40">
+	<testcase classname="AprovePrivilege_tests.AprovePrivilege_test" file="src/unittest/python/AprovePrivilege_tests.py" line="13" name="test_aprove" time="0.004" timestamp="2019-10-30T17:11:40">
+		<system-out>
+<![CDATA[Aprobación hecha
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

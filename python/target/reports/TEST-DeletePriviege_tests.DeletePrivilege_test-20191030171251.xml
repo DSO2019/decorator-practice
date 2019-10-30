@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="DeletePriviege_tests.py" name="DeletePriviege_tests.DeletePrivilege_test-20191030171251" skipped="0" tests="1" time="0.001" timestamp="2019-10-30T17:12:51">
+	<testcase classname="DeletePriviege_tests.DeletePrivilege_test" file="src/unittest/python/DeletePriviege_tests.py" line="13" name="test_delete" time="0.001" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[Eliminación hecha
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

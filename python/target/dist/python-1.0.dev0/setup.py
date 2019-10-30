@@ -30,7 +30,15 @@ if __name__ == '__main__':
         scripts = [],
         packages = [],
         namespace_packages = [],
-        py_modules = [],
+        py_modules = [
+            'CommentPrivilege',
+            'DeletePrivilege',
+            'PublishPrivilege',
+            'User',
+            'PrivilegeDecorator',
+            'AprovePrivilege',
+            'EndUser'
+        ],
         classifiers = [
             'Development Status :: 3 - Alpha',
             'Programming Language :: Python'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="User_tests.py" name="User_tests.User_test-20191030171251" skipped="0" tests="5" time="0.002" timestamp="2019-10-30T17:12:51">
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="20" name="test_aprove" time="0.000" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="23" name="test_comment" time="0.000" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="17" name="test_delete" time="0.000" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="11" name="test_getUsername" time="0.000" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="User_tests.User_test" file="src/unittest/python/User_tests.py" line="14" name="test_publish" time="0.000" timestamp="2019-10-30T17:12:51">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

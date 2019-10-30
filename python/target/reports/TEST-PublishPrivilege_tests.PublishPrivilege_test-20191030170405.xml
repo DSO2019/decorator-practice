@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="PublishPrivilege_tests.py" name="PublishPrivilege_tests.PublishPrivilege_test-20191030170405" skipped="0" tests="1" time="0.000" timestamp="2019-10-30T17:04:05">
+	<testcase classname="PublishPrivilege_tests.PublishPrivilege_test" file="src/unittest/python/PublishPrivilege_tests.py" line="13" name="test_publish" time="0.000" timestamp="2019-10-30T17:04:05">
+		<system-out>
+<![CDATA[Publicación hecha
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

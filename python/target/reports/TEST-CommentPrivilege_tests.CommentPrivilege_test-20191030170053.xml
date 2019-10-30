@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="CommentPrivilege_tests.py" name="CommentPrivilege_tests.CommentPrivilege_test-20191030170053" skipped="0" tests="1" time="0.000" timestamp="2019-10-30T17:00:53">
+	<testcase classname="CommentPrivilege_tests.CommentPrivilege_test" file="src/unittest/python/CommentPrivilege_tests.py" line="13" name="test_comment" time="0.000" timestamp="2019-10-30T17:00:53">
+		<system-out>
+<![CDATA[Comentario hecho
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
