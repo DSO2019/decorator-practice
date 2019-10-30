@@ -1,11 +1,11 @@
 class User():
 
-    def __init__(self, username:str):
+    def __init__(self, username: str):
         self.username = username
-    
+
     def getUsername(self) -> str:
         return self.username
-    
+
     def publish(self) -> bool:
         pass
 
