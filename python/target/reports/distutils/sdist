@@ -1,0 +1,42 @@
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-2.7' does not exist -- can't clean it
+running sdist
+running egg_info
+creating Decorator_practice.egg-info
+writing Decorator_practice.egg-info\PKG-INFO
+writing namespace_packages to Decorator_practice.egg-info\namespace_packages.txt
+writing top-level names to Decorator_practice.egg-info\top_level.txt
+writing dependency_links to Decorator_practice.egg-info\dependency_links.txt
+writing manifest file 'Decorator_practice.egg-info\SOURCES.txt'
+reading manifest file 'Decorator_practice.egg-info\SOURCES.txt'
+writing manifest file 'Decorator_practice.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating Decorator-practice-1.0.dev0
+creating Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying files to Decorator-practice-1.0.dev0...
+copying Approver.py -> Decorator-practice-1.0.dev0
+copying Commenter.py -> Decorator-practice-1.0.dev0
+copying Deleter.py -> Decorator-practice-1.0.dev0
+copying PrivilegeDecorator.py -> Decorator-practice-1.0.dev0
+copying Publisher.py -> Decorator-practice-1.0.dev0
+copying User.py -> Decorator-practice-1.0.dev0
+copying UserBase.py -> Decorator-practice-1.0.dev0
+copying setup.py -> Decorator-practice-1.0.dev0
+copying Decorator_practice.egg-info\PKG-INFO -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying Decorator_practice.egg-info\SOURCES.txt -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying Decorator_practice.egg-info\dependency_links.txt -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying Decorator_practice.egg-info\namespace_packages.txt -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying Decorator_practice.egg-info\top_level.txt -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+copying Decorator_practice.egg-info\zip-safe -> Decorator-practice-1.0.dev0\Decorator_practice.egg-info
+Writing Decorator-practice-1.0.dev0\setup.cfg
+creating dist
+Creating tar archive
+removing 'Decorator-practice-1.0.dev0' (and everything under it)

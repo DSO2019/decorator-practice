@@ -1,0 +1,8 @@
+Name           Stmts   Miss Branch BrPart  Cover
+------------------------------------------------
+Approver.py       13     13      0      0     0%
+Commenter.py      13     13      0      0     0%
+Deleter.py        13     13      0      0     0%
+Publisher.py      13     13      0      0     0%
+------------------------------------------------
+TOTAL             52     52      0      0     0%
