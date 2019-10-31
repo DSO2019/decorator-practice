@@ -1,0 +1,11 @@
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.exe
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.deps.json
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.runtimeconfig.json
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.runtimeconfig.dev.json
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.dll
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\bin\Debug\netcoreapp3.0\decorator-practice.pdb
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\obj\Debug\netcoreapp3.0\decorator-practice.csprojAssemblyReference.cache
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\obj\Debug\netcoreapp3.0\decorator-practice.AssemblyInfoInputs.cache
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\obj\Debug\netcoreapp3.0\decorator-practice.AssemblyInfo.cs
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\obj\Debug\netcoreapp3.0\decorator-practice.dll
+C:\Users\artur\Desktop\SD\repo\decorator-practice\csharp\decorator-practice\decorator-practice\obj\Debug\netcoreapp3.0\decorator-practice.pdb
