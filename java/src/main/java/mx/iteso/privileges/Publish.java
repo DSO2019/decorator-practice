@@ -4,25 +4,30 @@ import mx.iteso.Privilege;
 import mx.iteso.User;
 
 public class Publish extends Privilege {
-    User user;
+    /** @param User with publish privileges. */
+    private User user;
 
-    public Publish (User user){
-        this.user = user;
+    /** @param userIn with publish privileges  */
+    public Publish(final User userIn) {
+        this.user = userIn;
     }
 
-    public String approve() {
+    /**  @return New User with publish privileges. */
+    public final String approve() {
         return this.user.approve();
     }
 
-    public String comment() {
+    /** @return New User with publish privileges.  */
+    public final String comment() {
         return this.user.comment();
     }
 
-    public String delete() {
-        return this.user.delete();
-    }
+    /** @return New User with publish privileges. */
+    public final String delete() {
+        return  this.user.delete(); }
 
-    public String publish() {
-        return this.user.publish="Publicar";
+    /** @return New User with publish privileges. */
+    public final String publish() {
+        return " Can Publish";
     }
 }

@@ -1,13 +1,23 @@
 package mx.iteso;
 
-import mx.iteso.privileges.Approve;
-
 public class FinalUser extends User {
-    public FinalUser() {
-        comment = "No tiene privilegios de commentar";
-        approve = "No tiene privilegios de aprobar";
-        delete = "No tiene privilegios de borrar";
-        publish = "No tiene privilegios de publicar";
+    /**  @return New User with no publish privileges. */
+    public String publish() {
+        return "No privileges for publish";
     }
 
+    /**  @return New User with no delete privileges. */
+    public String delete() {
+        return "No privileges for delete";
+    }
+
+    /**  @return New User with no approve privileges. */
+    public String approve() {
+        return "No privileges for approve";
+    }
+
+    /**  @return New User with no comment privileges. */
+    public String comment() {
+        return "No privileges for comment";
+    }
 }

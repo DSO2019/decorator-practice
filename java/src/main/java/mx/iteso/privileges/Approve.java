@@ -4,25 +4,31 @@ import mx.iteso.Privilege;
 import mx.iteso.User;
 
 public class Approve extends Privilege {
-    User user;
+    /** @param User with approve privileges. */
+    private User user;
 
-    public Approve (User user){
-        this.user = user;
+    /** @param userIn with approve privileges  */
+    public Approve(final User userIn) {
+        this.user = userIn;
     }
 
-    public String approve() {
-        return this.user.approve="Approved";
+    /**  @return New User with approve privileges. */
+    public final String approve() {
+        return " Can Approve";
     }
 
-    public String comment() {
+    /** @return New User with approve privileges.  */
+    public final String comment() {
         return this.user.comment();
     }
 
-    public String delete() {
+    /** @return New User with approve privileges. */
+    public final String delete() {
         return this.user.delete();
     }
 
-    public String publish() {
+    /** @return New User with approve privileges. */
+    public final String publish() {
         return this.user.publish();
     }
 }

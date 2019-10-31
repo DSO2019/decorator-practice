@@ -1,28 +1,33 @@
 package mx.iteso.privileges;
-
 import mx.iteso.Privilege;
 import mx.iteso.User;
 
 public class Comment extends Privilege {
-    User user;
+    /** @param User with comment privileges. */
+    private User user;
 
-    public Comment (User user){
-        this.user = user;
+    /** @param userIn with comment privileges  */
+    public Comment(final User userIn) {
+        this.user = userIn;
     }
 
-    public String approve() {
-        return this.user.approve();
+    /**  @return New User with comment privileges. */
+    public final String approve() {
+        return this.user.comment();
     }
 
-    public String comment() {
-        return this.user.comment="Comentar";
+    /** @return New User with comment privileges.  */
+    public final String comment() {
+        return "Can comment";
     }
 
-    public String delete() {
+    /** @return New User with comment privileges. */
+    public final String delete() {
         return this.user.delete();
     }
 
-    public String publish() {
+    /** @return New User with comment privileges. */
+    public final String publish() {
         return this.user.publish();
     }
 }

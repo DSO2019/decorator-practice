@@ -4,25 +4,30 @@ import mx.iteso.Privilege;
 import mx.iteso.User;
 
 public class Delete extends Privilege {
-    User user;
+    /** @param User with delete privileges. */
+    private User user;
 
-    public Delete (User user){
-        this.user = user;
+    /** @param userIn with delete privileges  */
+    public Delete(final User userIn) {
+        this.user = userIn;
     }
 
-    public String approve() {
+    /**  @return New User with delete privileges. */
+    public final String approve() {
         return this.user.approve();
     }
 
-    public String comment() {
+    /** @return New User with delete privileges.  */
+    public final String comment() {
         return this.user.comment();
     }
 
-    public String delete() {
-        return this.user.delete="Borrar";
-    }
+    /** @return New User with delete privileges. */
+    public final String delete() {
+        return "Can Delete"; }
 
-    public String publish() {
+    /** @return New User with delete privileges. */
+    public final String publish() {
         return this.user.publish();
     }
 }
