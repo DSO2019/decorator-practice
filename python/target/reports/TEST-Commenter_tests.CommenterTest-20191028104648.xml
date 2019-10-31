@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="Commenter_tests.py" name="Commenter_tests.CommenterTest-20191028104648" skipped="0" tests="2" time="0.003" timestamp="2019-10-28T10:46:48">
+	<testcase classname="Commenter_tests.CommenterTest" file="src\unittest\python\Commenter_tests.py" line="16" name="test_Description" time="0.001" timestamp="2019-10-28T10:46:48">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Commenter_tests.CommenterTest" file="src\unittest\python\Commenter_tests.py" line="10" name="test_CommentPermission" time="0.002" timestamp="2019-10-28T10:46:48">
+		<error message="name 'false' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Commenter_tests.py", line 12, in test_CommentPermission
+    when(self.user).commentPermission().thenReturn(false)
+NameError: name 'false' is not defined
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

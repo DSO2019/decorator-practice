@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="Approval_tests.py" name="Approval_tests.ApprovalTest-20191028132144" skipped="0" tests="2" time="0.020" timestamp="2019-10-28T13:21:44">
+	<testcase classname="Approval_tests.ApprovalTest" file="src\unittest\python\Approval_tests.py" line="11" name="test_ApprovalPermission" time="0.016" timestamp="2019-10-28T13:21:44">
+		<system-out>
+<![CDATA[Approval permission enabled
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Approval_tests.ApprovalTest" file="src\unittest\python\Approval_tests.py" line="18" name="test_Description" time="0.004" timestamp="2019-10-28T13:21:44">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

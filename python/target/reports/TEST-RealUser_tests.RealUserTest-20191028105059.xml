@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="RealUser_tests.py" name="RealUser_tests.RealUserTest-20191028105059" skipped="0" tests="4" time="0.015" timestamp="2019-10-28T10:50:59">
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="16" name="test_ApprovalPermission" time="0.011" timestamp="2019-10-28T10:50:59">
+		<system-out>
+<![CDATA[Approval not allowed.
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="19" name="test_CommentPermission" time="0.002" timestamp="2019-10-28T10:50:59">
+		<system-out>
+<![CDATA[Commenting not allowed.
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="13" name="test_DeletionPermission" time="0.001" timestamp="2019-10-28T10:50:59">
+		<system-out>
+<![CDATA[Deletion not allowed.
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="RealUser_tests.RealUserTest" file="src\unittest\python\RealUser_tests.py" line="10" name="test_PublishPermission" time="0.001" timestamp="2019-10-28T10:50:59">
+		<system-out>
+<![CDATA[Publishing not allowed.
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

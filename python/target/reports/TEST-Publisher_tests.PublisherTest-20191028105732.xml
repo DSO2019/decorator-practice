@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" file="Publisher_tests.py" name="Publisher_tests.PublisherTest-20191028105732" skipped="0" tests="2" time="0.002" timestamp="2019-10-28T10:57:32">
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="16" name="test_Description" time="0.001" timestamp="2019-10-28T10:57:32">
+		<error message="__init__() takes 1 positional argument but 2 were given" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Publisher_tests.py", line 17, in test_Description
+    publisher = Publisher(self.user)
+TypeError: __init__() takes 1 positional argument but 2 were given
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Publisher_tests.PublisherTest" file="src\unittest\python\Publisher_tests.py" line="10" name="test_PublishPermission" time="0.001" timestamp="2019-10-28T10:57:32">
+		<error message="__init__() takes 1 positional argument but 2 were given" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "c:\users\alfre\documents\escolar\iteso\7mo semestre\diseño de sw\decorator-practice\python\src\unittest\python\Publisher_tests.py", line 11, in test_PublishPermission
+    publisher = Publisher(self.user)
+TypeError: __init__() takes 1 positional argument but 2 were given
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

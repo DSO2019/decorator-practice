@@ -1,0 +1,11 @@
+Name                     Stmts   Miss Branch BrPart  Cover
+----------------------------------------------------------
+Approval.py                 14     10      0      0    29%
+Commenter.py                14     10      0      0    29%
+Deletion.py                 14     10      0      0    29%
+PrivilegesDecorator.py       5      5      0      0     0%
+Publisher.py                14     10      0      0    29%
+RealUser.py                 14      6      0      0    57%
+User.py                     14     13      0      0     7%
+----------------------------------------------------------
+TOTAL                       89     64      0      0    28%

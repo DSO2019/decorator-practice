@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="Deletion_tests.py" name="Deletion_tests.DeletionTest-20191028110007" skipped="0" tests="2" time="0.013" timestamp="2019-10-28T11:00:07">
+	<testcase classname="Deletion_tests.DeletionTest" file="src\unittest\python\Deletion_tests.py" line="10" name="test_DeletionPermission" time="0.011" timestamp="2019-10-28T11:00:07">
+		<system-out>
+<![CDATA[Deletion permission enabled
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Deletion_tests.DeletionTest" file="src\unittest\python\Deletion_tests.py" line="16" name="test_Description" time="0.002" timestamp="2019-10-28T11:00:07">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
