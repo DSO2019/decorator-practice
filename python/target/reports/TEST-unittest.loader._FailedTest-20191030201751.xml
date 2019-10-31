@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="4" failures="0" file="unittest/loader.py" name="unittest.loader._FailedTest-20191030201751" skipped="0" tests="4" time="0.009" timestamp="2019-10-30T20:17:51">
+	<testcase classname="unittest.loader._FailedTest" file="/anaconda3/lib/python3.6/unittest/loader.py" line="33" name="Approve_tests" time="0.007" timestamp="2019-10-30T20:17:51">
+		<error message="Failed to import test module: Approve_tests
+Traceback (most recent call last):
+  File &quot;/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Approve_tests.py&quot;, line 1, in &lt;module&gt;
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: Approve_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Approve_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" file="/anaconda3/lib/python3.6/unittest/loader.py" line="33" name="Comment_tests" time="0.000" timestamp="2019-10-30T20:17:51">
+		<error message="Failed to import test module: Comment_tests
+Traceback (most recent call last):
+  File &quot;/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Comment_tests.py&quot;, line 1, in &lt;module&gt;
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: Comment_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Comment_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" file="/anaconda3/lib/python3.6/unittest/loader.py" line="33" name="Delete_tests" time="0.001" timestamp="2019-10-30T20:17:51">
+		<error message="Failed to import test module: Delete_tests
+Traceback (most recent call last):
+  File &quot;/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Delete_tests.py&quot;, line 1, in &lt;module&gt;
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: Delete_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Delete_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="unittest.loader._FailedTest" file="/anaconda3/lib/python3.6/unittest/loader.py" line="33" name="Publish_tests" time="0.001" timestamp="2019-10-30T20:17:51">
+		<error message="Failed to import test module: Publish_tests
+Traceback (most recent call last):
+  File &quot;/anaconda3/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Publish_tests.py&quot;, line 1, in &lt;module&gt;
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: Publish_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Publish_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

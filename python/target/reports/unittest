@@ -1,0 +1,58 @@
+
+Running tests...
+----------------------------------------------------------------------
+EEEE
+======================================================================
+ERROR [0.007s]: Approve_tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: Approve_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Approve_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+
+======================================================================
+ERROR [0.000s]: Comment_tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: Comment_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Comment_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+
+======================================================================
+ERROR [0.001s]: Delete_tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: Delete_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Delete_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+
+======================================================================
+ERROR [0.001s]: Publish_tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: Publish_tests
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/manuelsanchez/Desktop/repos/decorator-practice/python/src/unittest/python/Publish_tests.py", line 1, in <module>
+    from mockito import mock, verify, when
+ModuleNotFoundError: No module named 'mockito'
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.011s
+
+FAILED (errors=4)
+
+Generating XML reports...
