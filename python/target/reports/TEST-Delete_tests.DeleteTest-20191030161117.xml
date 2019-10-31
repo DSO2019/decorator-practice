@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="Delete_tests.py" name="Delete_tests.DeleteTest-20191030161117" skipped="0" tests="2" time="0.006" timestamp="2019-10-30T16:11:17">
+	<testcase classname="Delete_tests.DeleteTest" file="src/unittest/python/Delete_tests.py" line="12" name="testCanDelete" time="0.003" timestamp="2019-10-30T16:11:17">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Delete_tests.DeleteTest" file="src/unittest/python/Delete_tests.py" line="18" name="testDescription" time="0.002" timestamp="2019-10-30T16:11:17">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

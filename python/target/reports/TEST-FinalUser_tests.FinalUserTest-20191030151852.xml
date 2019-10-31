@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="4" failures="0" file="FinalUser_tests.py" name="FinalUser_tests.FinalUserTest-20191030151852" skipped="0" tests="4" time="0.003" timestamp="2019-10-30T15:18:52">
+	<testcase classname="FinalUser_tests.FinalUserTest" file="src/unittest/python/FinalUser_tests.py" line="11" name="testCanApprove" time="0.002" timestamp="2019-10-30T15:18:52">
+		<error message="__new__() takes exactly 4 arguments (1 given)" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/rios/Documents/repos/decorator-practice/python/src/unittest/python/FinalUser_tests.py", line 9, in setUp
+    self.user = FinalUser()
+TypeError: __new__() takes exactly 4 arguments (1 given)
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="FinalUser_tests.FinalUserTest" file="src/unittest/python/FinalUser_tests.py" line="14" name="testCanComment" time="0.000" timestamp="2019-10-30T15:18:52">
+		<error message="__new__() takes exactly 4 arguments (1 given)" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/rios/Documents/repos/decorator-practice/python/src/unittest/python/FinalUser_tests.py", line 9, in setUp
+    self.user = FinalUser()
+TypeError: __new__() takes exactly 4 arguments (1 given)
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="FinalUser_tests.FinalUserTest" file="src/unittest/python/FinalUser_tests.py" line="17" name="testCanDelete" time="0.000" timestamp="2019-10-30T15:18:52">
+		<error message="__new__() takes exactly 4 arguments (1 given)" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/rios/Documents/repos/decorator-practice/python/src/unittest/python/FinalUser_tests.py", line 9, in setUp
+    self.user = FinalUser()
+TypeError: __new__() takes exactly 4 arguments (1 given)
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="FinalUser_tests.FinalUserTest" file="src/unittest/python/FinalUser_tests.py" line="20" name="testCanPublish" time="0.000" timestamp="2019-10-30T15:18:52">
+		<error message="__new__() takes exactly 4 arguments (1 given)" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/rios/Documents/repos/decorator-practice/python/src/unittest/python/FinalUser_tests.py", line 9, in setUp
+    self.user = FinalUser()
+TypeError: __new__() takes exactly 4 arguments (1 given)
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
