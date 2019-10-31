@@ -1,5 +1,6 @@
 from PrivilegeDecorator import *
 
+
 class Publish(PrivilegeDecorator):
 
     def publish(self):

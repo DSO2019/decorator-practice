@@ -1,5 +1,6 @@
 from PrivilegeDecorator import *
 
+
 class Aprove(PrivilegeDecorator):
 
     def aprove(self):

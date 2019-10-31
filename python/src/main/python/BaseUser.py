@@ -1,5 +1,6 @@
 from User import *
 
+
 class BaseUser(User):
 
     def __init__(self, username):

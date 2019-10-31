@@ -1,5 +1,6 @@
 from User import *
 
+
 class PrivilegeDecorator(User):
 
     user = None
@@ -16,7 +17,7 @@ class PrivilegeDecorator(User):
 
     def comment(self):
         self._user.comment()
-    
+
     def delete(self):
         self._user.delete()
 

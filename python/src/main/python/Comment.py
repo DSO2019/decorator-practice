@@ -1,5 +1,6 @@
 from PrivilegeDecorator import *
 
+
 class Comment(PrivilegeDecorator):
 
     def comment(self):

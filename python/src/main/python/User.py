@@ -8,13 +8,12 @@ class User():
 
     def aprove(self):
         pass
-    
+
     def comment(self):
         pass
-    
+
     def delete(self):
         pass
 
     def publish(self):
         pass
- 

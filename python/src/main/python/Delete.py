@@ -1,5 +1,6 @@
 from PrivilegeDecorator import *
 
+
 class Delete(PrivilegeDecorator):
 
     def delete(self):
