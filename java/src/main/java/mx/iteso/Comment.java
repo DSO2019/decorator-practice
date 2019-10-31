@@ -41,6 +41,6 @@ public class Comment extends PrivilegesDecorator {
      * @return this user's right to comment
      */
     public String comment() {
-        return user.comment();
+        return "Puedo comentar";
     }
 }
