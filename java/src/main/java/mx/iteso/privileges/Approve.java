@@ -27,7 +27,7 @@ this.user = usuario;
  */
 @Override
 public String getDesc() {
-return user.getDesc() + " approve ";
+return user.getDesc() + "approve ";
 }
 
 /**
