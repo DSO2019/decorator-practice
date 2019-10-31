@@ -1,8 +1,13 @@
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\User.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\Approval.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\Publisher.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\RealUser.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\PrivilegesDecorator.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\Deletion.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\Commenter.java
-C:\Users\alfre\Documents\Escolar\ITESO\7MO SEMESTRE\Diseño de SW\decorator-practice\java\src\main\java\mx\iteso\package-info.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\AdminPrivileges.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\PrivilegesDecorator.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\Approval.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\EditorPrivileges.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\PublisherPrivileges.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\Privilege.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\Publisher.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\BaseUser.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\Deletion.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\Commenter.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\User.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\package-info.java
+C:\Users\Sedna\Documents\Programacion\GH\decorator-practice\java\src\main\java\mx\iteso\RealUser.java
