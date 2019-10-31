@@ -1,8 +1,0 @@
-Collecting pypandoc~=1.4
-Requirement already satisfied: pip>=8.1.0 in /home/rios/.local/lib/python2.7/site-packages (from pypandoc~=1.4) (19.2.3)
-Requirement already satisfied: setuptools in /home/rios/.local/lib/python2.7/site-packages (from pypandoc~=1.4) (39.2.0)
-Requirement already satisfied: wheel>=0.25.0 in /usr/lib/python2.7/dist-packages (ERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/pypandoc-1.4.dist-info'
-Consider using the `--user` option or check the permissions.
-
-WARNING: You are using pip version 19.2.3, however version 19.3.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.

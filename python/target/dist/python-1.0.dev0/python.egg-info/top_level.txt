@@ -1,7 +1,0 @@
-Approve
-Comment
-Delete
-FinalUser
-PrivilegeDecorator
-Publish
-User
