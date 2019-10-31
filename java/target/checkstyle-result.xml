@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="C:\Users\Felipe\Documents\ITESO\13\SD\decorator-practice\java\src\main\java\mx\iteso\User.java">
+<error line="27" column="45" severity="error" message="&apos;descripcion&apos; oculta un campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+</checkstyle>
