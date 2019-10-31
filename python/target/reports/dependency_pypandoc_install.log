@@ -1,0 +1,11 @@
+Collecting pypandoc~=1.3.0
+Requirement already satisfied: pip>=8.1.0 in /home/gustavo/.local/lib/python2.7/site-packages (from pypandoc~=1.3.0) (19.2.3)
+Requirement already satisfied: wheel>=0.25.0 in /home/gustavo/.local/lib/python2.7/site-packages (from pypandoc~=1.3.0) (0.33.6)
+Requirement already satisfied: setuptools in /usr/lib/python2.7/disERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/pypandoc'
+Consider using the `--user` option or check the permissions.
+
+WARNING: You are using pip version 19.2.3, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+thon2.7/site-packages/~ypandoc-1.4.dist-info
+  Moving to /home/gustavo/.local/lib/python2.7/site-packages/pypandoc/
+   from /home/gustavo/.local/lib/python2.7/site-packages/~ypandoc
