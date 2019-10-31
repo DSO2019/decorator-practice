@@ -1,0 +1,7 @@
+C:\Otono2019\decorator-practice\csharp\decorator-practice\bin\Debug\decorator-practice.exe.config
+C:\Otono2019\decorator-practice\csharp\decorator-practice\bin\Debug\decorator-practice.exe
+C:\Otono2019\decorator-practice\csharp\decorator-practice\bin\Debug\decorator-practice.pdb
+C:\Otono2019\decorator-practice\csharp\decorator-practice\obj\Debug\decorator-practice.csprojAssemblyReference.cache
+C:\Otono2019\decorator-practice\csharp\decorator-practice\obj\Debug\decorator-practice.csproj.CoreCompileInputs.cache
+C:\Otono2019\decorator-practice\csharp\decorator-practice\obj\Debug\decorator-practice.exe
+C:\Otono2019\decorator-practice\csharp\decorator-practice\obj\Debug\decorator-practice.pdb
