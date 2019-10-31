@@ -3,31 +3,61 @@ package mx.iteso.privileges;
 import mx.iteso.Privilege;
 import mx.iteso.User;
 
+/**
+ * Approve class privilege.
+ */
 public class Approve extends Privilege {
+    /**
+     * New user to add privileges.
+     */
     private User user;
 
-    public Approve(final User user){
-        this.user = user;
+    /**
+     *
+     * @param use to get approve privilege.
+     */
+    public Approve(final User use) {
+        this.user = use;
     }
 
+    /**
+     *
+     * @return Approve description.
+     */
     @Override
     public String getDescription() {
-        return user.getDescription() + "permiso de aprbar";
+        return user.getDescription() + "permiso de aprobar";
     }
 
-    public boolean canPublish(){
+    /**
+     *
+     * @return Privilege Publish.
+     */
+    public boolean canPublish() {
         return canPublish();
     }
 
-    public boolean canComment(){
+    /**
+     *
+     * @return Privilege Commnet.
+     */
+    public boolean canComment() {
         return canComment();
     }
 
-    public boolean canApprove(){
+    /**
+     *
+     * @return Privilege Approve.
+     */
+    public boolean canApprove() {
         return true;
     }
 
-    public boolean canDelete(){
+    /**
+     *
+     * @return privilege Delete.
+     */
+    public boolean canDelete() {
         return user.canDelete();
     }
 }

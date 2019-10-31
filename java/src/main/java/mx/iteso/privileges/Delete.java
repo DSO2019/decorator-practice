@@ -3,32 +3,61 @@ package mx.iteso.privileges;
 import mx.iteso.Privilege;
 import mx.iteso.User;
 
-public class Delete extends Privilege{
+/**
+ * Delete class.
+ */
+public class Delete extends Privilege {
+    /**
+     * New user to add privilege.
+     */
+    private User user;
 
-    User user;
-
-    public Delete(User user){
-        this.user = user;
+    /**
+     *
+     * @param use to get delete privilege.
+     */
+    public Delete(final User use) {
+        this.user = use;
     }
 
+    /**
+     *
+     * @return delete description.
+     */
     @Override
     public String getDescription() {
-        return user.getDescription() + "permiso de eliminar";
+        return user.getDescription() + "permiso de comentar";
     }
 
-    public boolean canPublish(){
+    /**
+     *
+     * @return publish description.
+     */
+    public boolean canPublish() {
         return user.canPublish();
     }
 
-    public boolean canComment(){
-        return user.canComment();
+    /**
+     *
+     * @return commnet description.
+     */
+    public boolean canComment() {
+        return true;
     }
 
-    public boolean canApprove(){
+    /**
+     *
+     * @return approve description.
+     */
+    public boolean canApprove() {
         return user.canApprove();
     }
 
-    public boolean canDelete(){
+    /**
+     *
+     * @return delete description.
+     */
+    public boolean canDelete() {
         return true;
     }
 }
